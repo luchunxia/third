@@ -1,0 +1,65 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1545639658566" stop="1545639658733">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1545639658566" status="passed" stop="1545639658581">
+      <name>TestLogin.test_a</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="652-MainThread"/>
+        <label name="host" value="USER-20180417UN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545639658579" status="passed" stop="1545639658580">
+          <name>不知道</name>
+          <title>不知道</title>
+          <attachments>
+            <attachment source="6a202abf-5302-4830-ac49-7a1183bd52db-attachment.txt" title="1111" type="text/plain"/>
+            <attachment source="19aa9186-7027-47d4-80a3-76180f2eb109-attachment.txt" title="22222" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1545639658588" status="failed" stop="1545639658733">
+      <name>TestLogin.test_b</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_login.TestLogin object at 0x0000000004264A90&gt;
+
+    @allure.step('登录步骤描述')
+    def test_b(self):
+        print(2222)
+        allure.attach('number 1', '我是测试步骤001的描述～～～')
+        print(3333)
+        allure.attach('number 2', '我是测试步骤002的描述～～～')
+&gt;       assert 0
+E       assert 0
+
+script\test_login.py:17: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="652-MainThread"/>
+        <label name="host" value="USER-20180417UN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1545639658591" status="failed" stop="1545639658596">
+          <name>登录步骤描述</name>
+          <title>登录步骤描述</title>
+          <attachments>
+            <attachment source="cc10b516-e5cc-406b-bd1b-c392a77a9ca4-attachment.txt" title="number 1" type="text/plain"/>
+            <attachment source="c9b7c3ac-820d-4b9d-9d72-dfcf3da08fdb-attachment.txt" title="number 2" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

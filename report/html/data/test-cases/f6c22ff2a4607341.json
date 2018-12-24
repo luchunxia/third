@@ -1,0 +1,106 @@
+{
+  "uid" : "f6c22ff2a4607341",
+  "name" : "TestLogin.test_b",
+  "fullName" : "test_login.TestLogin.test_b",
+  "historyId" : "acbf2ecfcc07620f0df3eb3f4c6e1518",
+  "time" : {
+    "start" : 1545639658588,
+    "stop" : 1545639658733,
+    "duration" : 145
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x0000000004264A90>\n\n    @allure.step('登录步骤描述')\n    def test_b(self):\n        print(2222)\n        allure.attach('number 1', '我是测试步骤001的描述～～～')\n        print(3333)\n        allure.attach('number 2', '我是测试步骤002的描述～～～')\n>       assert 0\nE       assert 0\n\nscript\\test_login.py:17: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x0000000004264A90>\n\n    @allure.step('登录步骤描述')\n    def test_b(self):\n        print(2222)\n        allure.attach('number 1', '我是测试步骤001的描述～～～')\n        print(3333)\n        allure.attach('number 2', '我是测试步骤002的描述～～～')\n>       assert 0\nE       assert 0\n\nscript\\test_login.py:17: AssertionError",
+    "steps" : [ {
+      "name" : "登录步骤描述",
+      "time" : {
+        "start" : 1545639658591,
+        "stop" : 1545639658596,
+        "duration" : 5
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_login.TestLogin object at 0x0000000004264A90>\n\n    @allure.step('登录步骤描述')\n    def test_b(self):\n        print(2222)\n        allure.attach('number 1', '我是测试步骤001的描述～～～')\n        print(3333)\n        allure.attach('number 2', '我是测试步骤002的描述～～～')\n>       assert 0\nE       assert 0\n\nscript\\test_login.py:17: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5f734047efbe25d",
+        "name" : "number 1",
+        "source" : "f5f734047efbe25d.txt",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "d974eb8bf714013a",
+        "name" : "number 2",
+        "source" : "d974eb8bf714013a.txt",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "USER-20180417UN"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "652-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_b"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f6c22ff2a4607341.json",
+  "parameterValues" : [ ]
+}
